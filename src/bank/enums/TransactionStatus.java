@@ -1,0 +1,10 @@
+package bank.enums;
+
+public enum TransactionStatus {
+    SUCCESS,
+    FAILED_INSUFFICIENT_FUNDS,
+    FAILED_INVALID_ACCOUNT,
+    FAILED_BLOCKED_ACCOUNT,
+    FAILED_AUTHENTICATION,
+    FAILED
+}
